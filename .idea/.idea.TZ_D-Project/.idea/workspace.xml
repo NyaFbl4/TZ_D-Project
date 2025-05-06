@@ -12,16 +12,23 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Equipment/IEquipment.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Equipment/Equipment.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Item.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/System/Helper.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Items/Weapon.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Items/Parachute.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Items/RocketPack.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/IPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerStat.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/System/SceneInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Installers/PlayerStatsInstallers.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Installers/ConfigsInstallers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerStats.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NewPlayer/INewPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NewPlayer/NewPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Installers/SceneInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/System/EntryPoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Items/Parachute.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Items/Weapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Items/RocketPack.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/IPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/System/Helper.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2wggfCt36ov7HrhKRDH38Ym4d0U" />
@@ -33,9 +40,10 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -56,6 +64,19 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b583d40-715d-4a64-a653-897025946798" name="Default Changelist" comment="" />
+      <created>1746515934303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746515934303</updated>
+      <workItem from="1746515974633" duration="3992000" />
+      <workItem from="1746520440587" duration="1102000" />
+      <workItem from="1746532799395" duration="4922000" />
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\lomok\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\lomok\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_TZ_D-Project.350612818.00" t="ExcludeRecursive" />
-    <e p="C:\Users\lomok\Desktop\Unity\Проекты\TZ_D-Project\TZ_D-Project" t="IncludeRecursive">
+    <e p="C:\Users\Public\Repos\!Testovoe\TZ_D-Project" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -949,6 +947,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Installers" t="Include">
+            <e p="SceneInstaller.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="Equipment" t="Include">
               <e p="Equipment.cs" t="Include" />
@@ -985,5 +986,7 @@
       <e p="Zenject-UnitTests-Editor.csproj" t="IncludeRecursive" />
       <e p="Zenject.csproj" t="IncludeRecursive" />
     </e>
+    <e p="C:\Users\Никита\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Никита\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_TZ_D-Project.978021615.00" t="ExcludeRecursive" />
   </component>
 </project>

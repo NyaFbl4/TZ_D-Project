@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace TZ
 {
+    [Serializable]
     public class Player : IPlayer
     {
         private static Player _instance;
@@ -14,28 +15,38 @@ namespace TZ
         private string _nickname;
         private List<string> _skills;
         private Equipment _equipment;
+        
+        private Weapon _weapon;
+        private RocketPack _rocketPack;
+        private Parachute _parachute;
 
         public int Health => _health;
         public int Lives => _lives;
         public string Nickname => _nickname;
         public List<string> Skills => _skills;
-        public IEquipment Equipment => _equipment;
+        public Equipment Equipment => _equipment;
+
+        public Weapon Weapon => _weapon;
+        public RocketPack RocketPack => _rocketPack;
+        public Parachute Parachute => _parachute;
 
         public static void Initialize(int health, int lives, string nickname, List<string> skills)
         {
             if (_instance == null)
             {
-                _instance = new Player(health, lives, nickname, skills);
+                //_instance = new Player(health, lives, nickname, skills);
             }
         }
         
-        private Player(int health, int lives, string nickname, List<string> skills)
+        public Player(int health, int lives, string nickname, List<string> skills, Equipment equipment)
         {
             _health = health;
             _lives = lives;
             _nickname = nickname;
             _skills = skills;
-            _equipment = new Equipment();
+            _equipment = equipment;
+
+            Debug.Log("Player created");
         }
 
         public static IPlayer Instance => 
@@ -80,20 +91,39 @@ namespace TZ
             }
         }
 
-        public void SetPlayerInfo()
+        public void ModifyAmmo(int value)
         {
-            Debug.Log("Health = " + _health);
-            Debug.Log("Lives = " + _lives);
-            Debug.Log("Nickname = " + _nickname);
-            
-            foreach (var skill in _skills)
+            if (_weapon != null)
             {
-                Debug.Log(skill);
+                _weapon.Modify(value);
             }
-            
-            foreach (var item in _equipment.Items)
+            else
             {
-                Debug.Log(item.Name);
+                Debug.Log("No Weapon");
+            }
+        }
+        
+        public void ModifyCharges(int value)
+        {
+            if (_rocketPack != null)
+            {
+                _rocketPack.Modify(value);
+            }
+            else
+            {
+                Debug.Log("No RocketPack");
+            }
+        }
+
+        public void ModifyParachute()
+        {
+            if (_rocketPack != null)
+            {
+                Debug.Log("No modify");
+            }
+            else
+            {
+                Debug.Log("No RocketPack");
             }
         }
     }

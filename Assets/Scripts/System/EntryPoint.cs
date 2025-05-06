@@ -1,15 +1,17 @@
 ﻿using TZ;
 using UnityEngine;
+using Zenject;
 
 namespace System
 {
     public class EntryPoint : MonoBehaviour
     {
-        [SerializeField] private PlayerStats _playerStats;
-        
-        private void Start()
+        private Player _player;
+
+        [Inject]
+        public void Construct(Player player)
         {
-            Player.Initialize(_playerStats.Health, _playerStats.Lives, _playerStats.Nickname, _playerStats.Skills);
+            _player = player;
         }
     }
 }

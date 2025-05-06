@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace TZ
 {
+    [CreateAssetMenu(menuName = "Player Stats")]
     public class PlayerStats : ScriptableObject
     {
         [SerializeField] private int _health;

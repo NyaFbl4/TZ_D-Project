@@ -12,5 +12,11 @@ namespace TZ
         {
             this.name = name;
         }
+
+        public virtual void GetItemInfo()
+        { }
+        
+        public virtual void Modify(int value)
+        { }
     }
 }

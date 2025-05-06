@@ -9,5 +9,10 @@ namespace TZ
         {
             
         }
+        
+        public override void GetItemInfo()
+        {
+            Debug.Log("Item name " + name);
+        }
     }
 }

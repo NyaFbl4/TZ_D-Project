@@ -11,5 +11,16 @@ namespace TZ
         {
             _ammo = ammo;
         }
+
+        public override void GetItemInfo()
+        {
+            Debug.Log("Item name " + name + ", Ammo " + _ammo);
+        }
+
+        public virtual void Modify(int value)
+        {
+            _ammo = value;
+            Debug.Log("New ammo = " + _ammo);
+        }
     }
 }
