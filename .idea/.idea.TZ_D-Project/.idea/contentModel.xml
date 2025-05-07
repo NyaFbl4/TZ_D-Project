@@ -968,7 +968,6 @@
             <e p="PlayerStats.cs" t="Include" />
           </e>
           <e p="System" t="Include">
-            <e p="EntryPoint.cs" t="Include" />
             <e p="Helper.cs" t="Include" />
           </e>
         </e>

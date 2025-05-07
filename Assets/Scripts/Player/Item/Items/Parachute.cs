@@ -10,6 +10,7 @@ namespace TZ
             
         }
         
+        //Метод для получения информации о предмете
         public override void GetItemInfo()
         {
             Debug.Log("Item name " + name);

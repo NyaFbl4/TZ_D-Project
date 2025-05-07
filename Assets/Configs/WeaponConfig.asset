@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c0222c5aeed4697aa0aa89726afe3d7, type: 3}
-  m_Name: New Rocket Pack
+  m_Script: {fileID: 11500000, guid: ac7871dee50a4060ad23229e4faa06e6, type: 3}
+  m_Name: WeaponConfig
   m_EditorClassIdentifier: 
-  name: "\u0420\u043E\u043A\u0435\u0442\u041F\u0430\u043A1"
-  _charges: 2
+  name: "\u041F\u0438\u0441\u0442\u043E\u043B\u0435\u0442"
+  _ammo: 7

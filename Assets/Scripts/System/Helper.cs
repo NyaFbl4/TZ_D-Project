@@ -3,8 +3,9 @@ using TZ;
 using UnityEngine;
 using Zenject;
 
-namespace System
+namespace TZ
 {
+    //Класс для тестирования класса Player
     public class Helper : MonoBehaviour
     {
         private Player _player;
@@ -15,54 +16,63 @@ namespace System
             _player = player;
         }
 
+        //Добавление здоровья  
         [Button]
-        public void GetHealth(int amount)
+        public void AddHealth(int amount)
         {
-            _player.GetHealth(amount);
+            _player.AddHealth(amount);
         }
         
+        //Добавление жизней 
         [Button]
-        public void GetLives(int amount)
+        public void AddLives(int amount)
         {
-            _player.GetLives(amount);
+            _player.AddLives(amount);
         }
         
+        //Изменение никнейма
         [Button]
         public void GetNewNickname(string nickname)
         {
             _player.GetNewNickname(nickname);
         }
         
+        //Добавление новой способности 
         [Button]
         private void AddSkill(string newSkill)
         {
             _player.AddSkill(newSkill);
         }
         
+        //Добавление нового предмета 
         [Button]
         private void AddNewItem(Item newItem)
         {
             _player.AddNewItem(newItem);
         }
         
+        //Модификация оружия 
         [Button]
         public void ModifyWeapon(int value)
         {
-            _player.ModifyAmmo(value);
+            _player.Equipment.ModifyAmmo(value);
         }
         
+        //Модификация рокетпака 
         [Button]
         public void ModifyRocketPack(int value)
         {
-            _player.ModifyCharges(value);
+            _player.Equipment.ModifyCharges(value);
         }
         
+        //Модификация парашюта 
         [Button]
         public void ModifyParachute()
         {
-            _player.ModifyParachute();
+            _player.Equipment.ModifyParachute();
         }
         
+        //Показать всю информацию о плеере 
         [Button]
         private void SetPlayerInfo()
         {

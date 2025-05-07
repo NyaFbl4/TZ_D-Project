@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c9d17543ceb409b93b4598314bdc2bd, type: 3}
-  m_Name: New Parachute
+  m_Name: ParachuteConfig
   m_EditorClassIdentifier: 
-  name: "\u041F\u0430\u0440\u0430\u0448\u0443\u04421"
+  name: "\u041F\u0430\u0440\u0430\u0448\u0443\u0442"
