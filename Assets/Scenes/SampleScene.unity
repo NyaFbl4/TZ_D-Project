@@ -122,51 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &638076663
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 638076665}
-  - component: {fileID: 638076664}
-  m_Layer: 0
-  m_Name: EntryPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &638076664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 638076663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0052bf1faf6443389c167fe39091a90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _playerStats: {fileID: 0}
---- !u!4 &638076665
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 638076663}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,9 +418,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerConfig: {fileID: 11400000, guid: 85fb2879a44e1db4ba8d001ef67a4705, type: 2}
-  _parachuteConfig: {fileID: 11400000, guid: 5e40c48c405e763448958a56483cc788, type: 2}
-  _rocketPackConfig: {fileID: 11400000, guid: 68ce0c9dc1eb53c47897f204e1a1d8c2, type: 2}
-  _weaponConfig: {fileID: 11400000, guid: 529a85d557524bf428af13c3922422a7, type: 2}
 --- !u!1 &2040268681
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,7 +447,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3965db7add2243b0819121987d6f39bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _newItem: {fileID: 0}
 --- !u!4 &2040268683
 Transform:
   m_ObjectHideFlags: 0
@@ -518,5 +469,4 @@ SceneRoots:
   - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 882806173}
-  - {fileID: 638076665}
   - {fileID: 2040268683}

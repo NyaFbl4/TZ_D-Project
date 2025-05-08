@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0d27278bb2449beb8c6164a66512972, type: 3}
-  m_Name: New Player Stats
+  m_Name: PlayerStatsConfig
   m_EditorClassIdentifier: 
   _health: 100
   _lives: 3
-  _nickname: ABOBER
+  _nickname: "\u041F\u0423\u0414\u0416"
   _skills:
   - "\u0425\u0423\u041A"
   - "\u0420\u041E\u0422"

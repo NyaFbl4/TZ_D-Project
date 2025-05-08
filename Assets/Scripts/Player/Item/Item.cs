@@ -8,14 +8,16 @@ namespace TZ
 
         public string Name => name;
 
-        public Item(string name)
+        protected Item(string name)
         {
             this.name = name;
         }
-
+        
+        //Виртуальный метод для получения информации о предмете
         public virtual void GetItemInfo()
         { }
         
+        //Виртуальный метод для модификации предмета
         public virtual void Modify(int value)
         { }
     }

@@ -11,7 +11,6 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Equipment/IEquipment.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Equipment/Equipment.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/IPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerStat.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/System/SceneInstaller.cs" />
@@ -20,15 +19,16 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerStats.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/NewPlayer/INewPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/NewPlayer/NewPlayer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Installers/SceneInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/System/EntryPoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/IPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Installers/SceneInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Items/Parachute.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Items/Weapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Item/Items/RocketPack.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/IPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Equipment/Equipment.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/System/Helper.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2wggfCt36ov7HrhKRDH38Ym4d0U" />
@@ -74,6 +74,7 @@
       <workItem from="1746515974633" duration="3992000" />
       <workItem from="1746520440587" duration="1102000" />
       <workItem from="1746532799395" duration="4922000" />
+      <workItem from="1746604750551" duration="4230000" />
     </task>
     <servers />
   </component>

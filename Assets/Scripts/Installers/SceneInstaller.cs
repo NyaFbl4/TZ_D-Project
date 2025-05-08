@@ -2,42 +2,27 @@ using TZ;
 using UnityEngine;
 using Zenject;
 
-public class SceneInstaller : MonoInstaller
+namespace TZ
 {
-    [SerializeField] private PlayerStats _playerConfig;
-    
-    [SerializeField] private Parachute _parachuteConfig;
-    [SerializeField] private RocketPack _rocketPackConfig;
-    [SerializeField] private Weapon _weaponConfig;
-    
-    public override void InstallBindings()
+    public class SceneInstaller : MonoInstaller
     {
-        Container
-            .BindInterfacesTo<Equipment>()
-            .AsSingle()
-            .NonLazy();
-        
-        Container
-            .BindInterfacesAndSelfTo<Player>()
-            .AsSingle()
-            .WithArguments(
-                _playerConfig.Health,
-                _playerConfig.Lives,
-                _playerConfig.Nickname,
-                _playerConfig.Skills,
-                new Equipment()
+        // Добавление конфига статов плеера, чтобы на их основе создать экземпляр 
+        [SerializeField] private PlayerStats _playerConfig;
+
+        public override void InstallBindings()
+        {
+            //Зарегистрировал класс, чтобы через DI к нему могли обращаться другие классы
+            // Сразу создал экземпляр клааса в единсвенном виде
+            Container
+                .BindInterfacesAndSelfTo<Player>()
+                .AsSingle()
+                .WithArguments(
+                    _playerConfig.Health,
+                    _playerConfig.Lives,
+                    _playerConfig.Nickname,
+                    _playerConfig.Skills,
+                    new Equipment()
                 );
-        
-        Container
-            .Bind<Parachute>()
-            .FromInstance(_parachuteConfig);
-        
-        Container
-            .Bind<RocketPack>()
-            .FromInstance(_rocketPackConfig);
-        
-        Container
-            .Bind<Weapon>()
-            .FromInstance(_weaponConfig);
+        }
     }
 }
